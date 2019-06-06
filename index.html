@@ -19,12 +19,15 @@
 
         .menu {
             padding: 0 calc((100% - 1200px) / 2);
+            width: 100%;
+            position: fixed;
+            z-index: 5;
             display: flex;
             flex-wrap: wrap;
             margin: 0 auto;
             justify-content: space-between;
             align-items: center;
-            background-color: rgb(161, 35, 154, 0.3);
+            background-color: rgb(189, 161, 188);
         }
 
         .menu p {
@@ -65,6 +68,7 @@
             padding: 125px calc((100% - 960px) / 2);
             background-color: #c315bc;
             position: relative;
+            top: 35px;
             z-index: 0;
         }
         .logo a {
@@ -84,15 +88,17 @@
 
         .carousel {
             position: relative;
-            top: -250px;
-            z-index: 999;
+            top: -195px;
+            z-index: 4;
             max-width: 1200px;
+            max-height: 420px;
             margin: 0 auto;
             border: solid 10px white;
             box-shadow: 0 4px 16px -4px rgba(0,0,0,0.5);
         }
         .carousel-inner {
             display: flex;
+            max-height: 400px;
         }
         .carousel-inner img {
             width: 100%;
@@ -122,9 +128,9 @@
 
         .home {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 50px auto;
             position: relative;
-            top: -150px;
+            top: -100px;
         }
         .home > h1 {
             font-size: 36px;
@@ -179,6 +185,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+        }
+        .footerInfo p:first-child {
+            margin-bottom: 20px;
         }
         .copyright {
             text-align: center;
