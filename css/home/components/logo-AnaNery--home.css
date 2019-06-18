@@ -1,0 +1,32 @@
+.logo-AnaNery {
+    display: flex;
+    justify-content: center;
+    padding: 125px calc((100% - 960px) / 2);
+    background-color: var(--color-rosaClaro);
+    position: relative;
+    top: 35px;
+    z-index: 0;
+}
+.logo-AnaNery a {
+    position: relative;
+    top: -120px;
+}
+.logo-AnaNery::after {
+    content: '';
+    width: 750px;
+    height: 300px;
+    background: radial-gradient( rgba(255,255,255, 0.8) 0%, rgba(255,255,255, 0) 70%);
+    opacity: .4;
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+}
+
+@media (max-width: 600px){
+    .logo-AnaNery {
+        padding: 50px;
+    }
+    .logo-AnaNery a {
+        top: -45px;
+    }
+}

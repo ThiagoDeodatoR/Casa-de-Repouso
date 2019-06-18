@@ -1,0 +1,48 @@
+.menu-AnaNery {
+    padding: 0 calc((100% - 1200px) / 2);
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-menuBgc);
+}
+
+.menu-AnaNery p {
+    color: var(--color-cinza);
+    font-weight: bold;
+    margin: 10px 0 10px 10px;
+}
+
+.menu-AnaNery > ul {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.menu-AnaNery p {
+    margin-right: 10px;
+}
+
+.menu-AnaNery li {
+    padding: 10px;
+} 
+
+.menu-AnaNery li a {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-cinza);
+    transition: color 300ms linear;
+}
+
+.menu-AnaNery li a:hover {
+    color: var(--color-rosaEscuro);
+    text-decoration: none;
+}
+
+.menu-AnaNery li.paginaAtual a {
+    color: var(--color-rosaClaro);
+}

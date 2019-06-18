@@ -1,0 +1,47 @@
+.home-AnaNery {
+    max-width: 1200px;
+    margin: 50px auto;
+    position: relative;
+    top: -100px;
+}
+.home-AnaNery > h1 {
+    font-size: 36px;
+    color: var(--color-rosaClaro);
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.home-AnaNery > h2 {
+    font-size: 20px;
+    color: var(--color-cinza);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.homeInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.homeInfo > p {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--color-cinza);
+    line-height: 2;
+    flex: 1 1 450px;  
+    margin: 10px; 
+}
+.homeInfo > img {
+    flex: 1 1 450px;
+    border: 5px solid var(--color-rosaClaro);
+    margin: 10px;
+    object-fit:contain;
+}
+.homeInfoFinal {
+    font-size: 20px;
+    position:relative;
+    bottom: -70px;
+    margin: 0 10px;
+    color: var(--color-cinza);
+    font-weight: bold;
+    text-align: center;
+}

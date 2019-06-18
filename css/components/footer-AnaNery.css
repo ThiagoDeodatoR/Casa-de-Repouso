@@ -1,0 +1,21 @@
+.footer-AnaNery {
+    position: relative;
+    padding: 20px calc((100% - 1200px) / 2);
+    background-color: var(--color-rosaClaro);
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+}
+.footerInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footerInfo p:first-child {
+    margin-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+    color: var(--color-cinza);
+    margin: 20px; 
+}
