@@ -1,0 +1,46 @@
+.nossaCasa-AnaNery {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.nossaCasa-AnaNery > h1 {
+    font-size: 36px;
+    color: var(--color-rosaClaro);
+    margin: 100px 0 60px 10px;
+}
+
+.nossaCasaInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nossaCasaInfo > p {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--color-cinza);
+    line-height: 2;
+    margin: 10px;
+}
+
+.nossaCasaImgs > img {
+    border: 5px solid var(--color-rosaClaro);
+    margin: 10px;
+    max-height: 400px;
+    max-width: 600px;
+    height: auto;
+    width: auto;
+    flex: 1 1 400px;
+    object-fit: fill;
+}
+.nossaCasaImgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nossaCasaFinal {
+    font-size: 20px;
+    margin: 60px 10px;
+    color: var(--color-cinza);
+    font-weight: bold;
+    text-align: center;
+}
