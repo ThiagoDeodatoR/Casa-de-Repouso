@@ -1,0 +1,18 @@
+.nossasInstalacoes-Ana-Nery{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nossasInstalacoes-Ana-Nery > h1 {
+    font-size: 36px;
+    color: var(--color-rosaClaro);
+    margin: 100px 0 60px 10px;
+    width: 100%;
+}
+.nossasInstalacoes-Ana-Nery > h2 {
+    font-size: 20px;
+    color: var(--color-cinza);
+    margin: 0 0 40px 10px;
+    font-weight: bold; 
+}
